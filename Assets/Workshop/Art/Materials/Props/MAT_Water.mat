@@ -36,8 +36,8 @@ Material:
     - _DstBlend: 10
     - _DstBlendAlpha: 10
     - _IsWater: 1
-    - _NoiseIntensity: 1
     - _QueueControl: 0
+    - _Speed: 0.2
     - _SrcBlend: 5
     m_Colors: []
   m_BuildTextureStacks: []

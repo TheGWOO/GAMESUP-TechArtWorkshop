@@ -22,7 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: MAT_Crystal
   m_Shader: {fileID: -6465566751694194690, guid: 3b3522c6e004db046ab26eb0364ae731, type: 3}
-  m_Parent: {fileID: -876546973899608171, guid: 3b3522c6e004db046ab26eb0364ae731, type: 3}
+  m_Parent: {fileID: 2100000, guid: e3febe85fcf715a40996ccfa3aa5c92e, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -41,7 +41,6 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaToMask: 0
-    - _HasSciFiEffect: 1
     - _QueueControl: 0
     m_Colors:
     - _BaseColor: {r: 0, g: 0.46658212, b: 0.78113204, a: 1}

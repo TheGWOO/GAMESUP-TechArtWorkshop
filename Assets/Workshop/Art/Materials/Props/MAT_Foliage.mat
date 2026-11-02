@@ -22,7 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: MAT_Foliage
   m_Shader: {fileID: -6465566751694194690, guid: 3b3522c6e004db046ab26eb0364ae731, type: 3}
-  m_Parent: {fileID: 2100000, guid: 8427cd913f804104ea68b6bdc155f3a7, type: 2}
+  m_Parent: {fileID: 2100000, guid: e3febe85fcf715a40996ccfa3aa5c92e, type: 2}
   m_ModifiedSerializedProperties: 16
   m_ValidKeywords:
   - _ALPHATEST_ON

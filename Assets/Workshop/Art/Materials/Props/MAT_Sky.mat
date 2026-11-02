@@ -8,31 +8,46 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: MAT_Sky
-  m_Shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
-  m_Parent: {fileID: 0}
+  m_Shader: {fileID: -6465566751694194690, guid: 81d743ec69e674e4da95a9434cde4e73, type: 3}
+  m_Parent: {fileID: -876546973899608171, guid: 81d743ec69e674e4da95a9434cde4e73, type: 3}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _SUNDISK_HIGH_QUALITY
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - MOTIONVECTORS
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _AtmosphereThickness: 0.65
-    - _Exposure: 1.1
-    - _SunDisk: 2
-    - _SunSize: 0.025
-    - _SunSizeConvergence: 5
+    - _HorizonCompression: 3
+    - _HorizonOffset: 0.2
+    - _QueueControl: 0
+    - _Saturation: 0.5
+    - _UseClouds: 1
     m_Colors:
-    - _GroundColor: {r: 0.62, g: 0.44, b: 0.29, a: 1}
-    - _SkyTint: {r: 0.44, g: 0.57, b: 0.66, a: 1}
+    - _BottomColor: {r: 0, g: 0.46540874, b: 0.31105205, a: 0}
+    - _HorizonColor: {r: 2.4350483, g: 1.9316573, b: 0, a: 0.2509804}
+    - _TopColor: {r: 0, g: 1.4980391, b: 1.2753577, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+--- !u!114 &1940440464828388350
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
+  version: 10
